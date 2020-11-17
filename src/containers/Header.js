@@ -16,10 +16,10 @@ class Header extends React.Component{
           <div className="collapse navbar-collapse" id="navbarNavDropdown">
           <ul className="navbar-nav">
           <li className="nav-item active">
-          <a className="nav-link" href="#"><input placeholder="Pakistan" className="input-box" type="text" height="150"width="100"/><span className="sr-only">(current)</span></a>
+          <a className="nav-link"><input placeholder="Pakistan" className="input-box" type="text" height="150"width="100"/><span className="sr-only">(current)</span></a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#"><input className="find-input" type="text" height="150"width="100"placeholder="Find Cars, Mobile Phones and more..." /><button className="search-icon"><i className="fa fa-search" aria-hidden="true"></i></button></a>
+              <a className="nav-link"><input className="find-input" type="text" height="150"width="100"placeholder="Find Cars, Mobile Phones and more..." /><button className="search-icon"><i className="fa fa-search" aria-hidden="true"></i></button></a>
               </li>
               <li className="nav-item">
                 <Link className="login" to="/login">Login</Link>
@@ -30,7 +30,6 @@ class Header extends React.Component{
             </ul>
           </div>
         </nav>
-        
         
         <div className="btn-group">
         <select name="devices">
@@ -50,8 +49,9 @@ class Header extends React.Component{
         <Link className="headerlinks"to="/tablets">Tablets </Link>
         <Link className="headerlinks"to="/plots">Land & Plots</Link>
         </div>
-
-            </div>
+        <br />
+        <br />
+        </div>
         )
     }
 }

@@ -12,12 +12,13 @@ import Houses from '../components/Houses'
 import Plots from '../components/Land&Plots'
 import Motorcycles from '../components/Motorcycles'
 import Electronics from '../components/Electronics'
-import footer from '../MainPage/footer'
+import Footer1 from '../MainPage/footer'
 // import MainComponent from '../components/Main-Component';
 // import SiteMap from '../components/SiteMap';
 // import Categories from '../components/Categories';
 // import App from '../App'
 import Header from '../containers/Header';
+import MainComponent from '../containers/MainComponent';
 import Footer from '../containers/Footer';
 class AppRouter extends React.Component{
     render(){
@@ -26,6 +27,7 @@ class AppRouter extends React.Component{
             <Route exact path="/login" component={Sell} /> 
             <Route exact path="/sell" component={Sell} /> 
             <Route exact path="/" component={Header} /> 
+            <Route exact path="/" component={MainComponent} /> 
             <Route exact path="/" component={Footer} /> 
             <Route exact path="/mainpage" component={MainPage} /> 
             <Route exact path="/sellpage" component={SellPage} /> 
@@ -37,7 +39,7 @@ class AppRouter extends React.Component{
             <Route exact path="/houses" component={Houses} /> 
             <Route exact path="/cars" component={Cars} /> 
             <Route exact path="/tablets" component={Tablets} /> 
-            <Route exact path="/mainpage" component={footer} /> 
+            <Route exact path="/footer" component={Footer1} /> 
 
 
 

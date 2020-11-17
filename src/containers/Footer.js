@@ -5,11 +5,28 @@ class Footer extends React.Component{
     render(){
         return(
             <div>
-            <div className="container">
+            {/* <div className="container">
             <center><button className="loadmore">Load more</button></center>
-            </div>
+            </div> */}
 
             <div className="container footer">
+            <div className="row fooImg">
+            <div className="col-md-5">
+            <img src={"https://statics.olx.com.pk/external/base/img/phone-app.webp"} />
+            </div>
+
+            <div className="col-md-4 colTryOlx">
+            <h2 className="tryOlx">Try the olx app</h2>
+            <p className="olxCaption">Buy, sell and find just about anything using the app on your mobile</p>
+            </div>
+
+            <div className="col-md-3">
+            <p className="fooGetApp">Get Your App Today</p>   
+            <Link to="https://play.google.com/store/apps/details?id=com.olx.pk"><img src={"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRq9Tq3Nqu5tlchiAjgOz7FwbzRIr3E4H1xWg&usqp=CAU"} height="40px"width="120px" /></Link>
+            <Link to="https://apps.apple.com/pk/app/olx-pakistan/id1119081665?utm_source=desktop_ios&utm_medium=home_banner&utm_campaign=home"><img src={"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSpNuf39VGGHSRxiLJNK9jqS0w4XFrLk34Xmg&usqp=CAU"} height="40px"width="120px" /></Link>
+            </div>
+            </div>
+
             <div className="row">
             <div className="col-md-3">
             <p className="footerservices">POPULAR CATEGORIES</p>

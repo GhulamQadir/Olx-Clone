@@ -5,15 +5,11 @@ import { connect } from 'react-redux';
 
 
 
-class Footer extends React.Component{
+class Footer1 extends React.Component{
     render(){
         return(
             <div>
-            <div className="container">
-            <center><button className="loadmore">Load more</button></center>
-            </div>
-
-            <div className="container footer">
+            <div className="container footer2">
             <div className="row">
             <div className="col-md-3">
             <p className="footerservices">POPULAR CATEGORIES</p>
@@ -74,4 +70,4 @@ class Footer extends React.Component{
         )
     }
 }
-export default Footer
+export default Footer1
