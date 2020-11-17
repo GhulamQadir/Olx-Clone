@@ -2,7 +2,7 @@ import React from 'react'
 import InputLabel from '@material-ui/core/InputLabel';
 import { Link } from "react-router-dom";
 import { connect } from 'react-redux';
-
+import Links from '../containers/CompLinks'
 
 class Header extends React.Component{
     render(){
@@ -30,7 +30,8 @@ class Header extends React.Component{
             </ul>
           </div>
         </nav>
-        
+        <Links />
+        <div className="links">
         <div className="btn-group">
         <select name="devices">
         <optgroup label="All Categories">rtet</optgroup>
@@ -52,6 +53,8 @@ class Header extends React.Component{
         <br />
         <br />
         </div>
+        </div>
+
         )
     }
 }

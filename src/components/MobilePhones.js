@@ -4,9 +4,7 @@ import { Link } from "react-router-dom";
 import { upload_img, post } from '../MainPage/AdPosting'
 import { connect } from 'react-redux';
 import Header from '../containers/Header'
-import Footer1 from '../MainPage/footer'
-import Footer from '../containers/Footer';
-// import { post_ad } from '../store/action/'
+import Footer1 from '../components/footer'
 
 class MobilePhones extends React.Component{
 
@@ -213,7 +211,7 @@ class MobilePhones extends React.Component{
                 <br />
                
                 <center><button className="loadmore">Load more</button></center>
-               <Footer1 />
+                <Footer1 />
                 </div>
                 </div>
 
@@ -232,4 +230,4 @@ class MobilePhones extends React.Component{
         
 //     })
 // export default connect(mapStateToProps, mapDispatchToProps)(MobilePhones);
-export default (MobilePhones)
+export default MobilePhones;

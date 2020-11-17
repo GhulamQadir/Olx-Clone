@@ -12,7 +12,6 @@ import Houses from '../components/Houses'
 import Plots from '../components/Land&Plots'
 import Motorcycles from '../components/Motorcycles'
 import Electronics from '../components/Electronics'
-import Footer1 from '../MainPage/footer'
 // import MainComponent from '../components/Main-Component';
 // import SiteMap from '../components/SiteMap';
 // import Categories from '../components/Categories';
@@ -20,6 +19,7 @@ import Footer1 from '../MainPage/footer'
 import Header from '../containers/Header';
 import MainComponent from '../containers/MainComponent';
 import Footer from '../containers/Footer';
+import Footer1 from '../components/footer'
 class AppRouter extends React.Component{
     render(){
         return(
@@ -39,8 +39,7 @@ class AppRouter extends React.Component{
             <Route exact path="/houses" component={Houses} /> 
             <Route exact path="/cars" component={Cars} /> 
             <Route exact path="/tablets" component={Tablets} /> 
-            <Route exact path="/footer" component={Footer1} /> 
-
+           
 
 
         </Router>

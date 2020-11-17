@@ -1,9 +1,5 @@
 import React from 'react'
-import InputLabel from '@material-ui/core/InputLabel';
 import { Link } from "react-router-dom";
-import { connect } from 'react-redux';
-
-
 
 class Footer1 extends React.Component{
     render(){
@@ -13,15 +9,15 @@ class Footer1 extends React.Component{
             <div className="row">
             <div className="col-md-3">
             <p className="footerservices">POPULAR CATEGORIES</p>
-            <Link className="footerLinks">Cars</Link><br />
+            <Link className="footerLinks"to="/cars">Cars</Link><br />
             <Link className="footerLinks">Flats for rent</Link><br />
             <Link className="footerLinks">Jobs</Link><br />
-            <Link className="footerLinks">Mobile Phones</Link><br />
+            <Link className="footerLinks"to="/mobilephones">Mobile Phones</Link><br />
             </div>
 
             <div className="col-md-3">
             <p className="footerservices">TRENDING SEARCHES</p>
-            <Link className="footerLinks">Bikes</Link><br />
+            <Link className="footerLinks"to="/motorcycles">Bikes</Link><br />
             <Link className="footerLinks">Watches</Link><br />
             <Link className="footerLinks">Books</Link><br />
             <Link className="footerLinks">Dogs</Link><br />
@@ -29,17 +25,17 @@ class Footer1 extends React.Component{
 
             <div className="col-md-2">
             <p className="footerservices">ABOUT US</p>
-            <Link className="footerLinks">About OLX Group</Link><br />
-            <Link className="footerLinks">OLX Blog</Link><br />
-            <Link className="footerLinks">Contact Us</Link><br />
-            <Link className="footerLinks">OLX for Businesses</Link><br />
+            <Link className="footerLinks"to="https://www.olx.com.pk/">About OLX Group</Link><br />
+            <Link className="footerLinks"to="https://blog.olx.com.pk/">OLX Blog</Link><br />
+            <Link className="footerLinks"to="https://help.olx.com.pk/hc/en-us/requests/new?ticket_form_id=29191">Contact Us</Link><br />
+            <Link className="footerLinks"to="https://www.surveygizmo.com/s3/4910980/WP-Business-Form?source=Website">OLX for Businesses</Link><br />
             </div>
 
             <div className="col-md-2">
             <p className="footerservices">OLX</p>
-            <Link className="footerLinks">Help</Link><br />
+            <Link className="footerLinks"to="https://help.olx.com.pk/hc/en-us">Help</Link><br />
             <Link className="footerLinks">Sitemap</Link><br />
-            <Link className="footerLinks">Legal & Privacy information</Link><br />
+            <Link className="footerLinks"to="https://help.olx.com.pk/hc/en-us/categories/360000044302-Legal-Privacy-information">Legal & Privacy information</Link><br />
             </div>
             
             <div className="col-md-2">
@@ -70,4 +66,4 @@ class Footer1 extends React.Component{
         )
     }
 }
-export default Footer1
+export default Footer1;

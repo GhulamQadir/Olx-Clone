@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 
 class MainComponent extends React.Component{
     render(){
@@ -11,7 +12,8 @@ class MainComponent extends React.Component{
                 <br />
                 <br />
 
-                <p className="moreMobiles">More on Mobile Phones</p>
+                <p className="moreMobiles">More on Mobile Phones <Link to="/mobilephones"><span className="viewMore">View more</span></Link></p>
+            
                 <div className="row">
                 <div className="col-md-3">
                 <div className="card">

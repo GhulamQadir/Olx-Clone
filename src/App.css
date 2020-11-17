@@ -114,6 +114,9 @@
   .loadmore:hover{
     border: 5px darkslategrey solid;
   }
+  .links{
+    margin-top: 23px;
+  }
   .tryOlx{
     padding: 15px;
     color: rgb(14, 43, 14);
@@ -124,6 +127,16 @@
     color: rgb(25, 58, 25);
     font-size: 23px;
     font-weight: 500;
+  }
+  .viewMore{
+    float: right;
+    font-size: 15px;
+    font-weight: 700;
+    color: rgb(26, 68, 26);
+    text-decoration: currentColor;
+  }
+  .viewMore:hover{
+    color: rgb(14, 43, 14);
   }
   .olxCaption{
     margin: 10px 10px 10px 10px;
@@ -178,7 +191,7 @@
   .footer2{
   background-color: rgb(231, 225, 225);
   width: 100%;  
-  margin-top: 100px;
+  margin-top: 150px;
   }
   .footer1{
     font-size: 13px;

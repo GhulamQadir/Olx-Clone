@@ -3,7 +3,7 @@ import firebase from '../config/firebase'
 import Header from '../containers/Header'
 import { Link } from "react-router-dom";
 import { connect } from 'react-redux';
-import Footer1 from '../MainPage/footer'
+import Footer1 from '../components/footer'
 
 
 class Cars extends React.Component{
@@ -224,4 +224,4 @@ class Cars extends React.Component{
         )
     }
 }
-export default (Cars);
+export default Cars;
